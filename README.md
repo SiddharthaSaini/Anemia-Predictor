@@ -8,16 +8,6 @@ A Flask web application that predicts anemia based on blood parameters.
 - User-friendly web interface
 - Detailed explanations of results
 
-## Deployment on Render
-
-1. Fork this repository
-2. Connect your GitHub repository to Render
-3. Create a new Web Service on Render
-4. Use the following settings:
-   - Build Command: `pip install -r requirements.txt`
-   - Start Command: `python app.py`
-   - Python Version: 3.11.9
-
 ## Local Development
 
 1. Clone the repository
@@ -38,3 +28,4 @@ Make sure you have the following files in your project root:
 
 - `GET /` - Home page with prediction form
 - `POST /predict` - Submit prediction form and get results
+
